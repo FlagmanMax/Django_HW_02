@@ -1,0 +1,846 @@
+INFO 2023-10-14 17:59:22,366 autoreload 13952 2020Watching for file changes with StatReloader
+INFO 2023-10-14 17:59:26,351 basehttp 13952 1912"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2023-10-14 17:59:32,477 basehttp 13952 1912"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-10-14 17:59:47,844 basehttp 13952 1912"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2023-10-14 17:59:48,036 basehttp 13952 1912"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+WARNING 2023-10-15 04:21:04,335 log 13952 13624Not Found: /favicon.ico
+WARNING 2023-10-15 04:21:04,400 basehttp 13952 13624"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-16 09:00:58,078 log 13952 1500Not Found: /favicon.ico
+WARNING 2023-10-16 09:00:58,089 basehttp 13952 1500"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-17 11:01:11,344 log 13952 21060Not Found: /favicon.ico
+WARNING 2023-10-17 11:01:11,400 basehttp 13952 21060"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-19 18:20:11,184 log 13952 19180Not Found: /favicon.ico
+WARNING 2023-10-19 18:20:11,222 basehttp 13952 19180"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-20 18:28:24,251 log 13952 17460Not Found: /favicon.ico
+WARNING 2023-10-20 18:28:24,272 basehttp 13952 17460"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-21 18:36:08,709 log 13952 12680Not Found: /favicon.ico
+WARNING 2023-10-21 18:36:08,764 basehttp 13952 12680"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-22 18:55:29,579 log 13952 16172Not Found: /favicon.ico
+WARNING 2023-10-22 18:55:29,598 basehttp 13952 16172"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-23 19:53:16,942 log 13952 9232Not Found: /favicon.ico
+WARNING 2023-10-23 19:53:16,954 basehttp 13952 9232"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-25 19:11:18,842 log 13952 16920Not Found: /favicon.ico
+WARNING 2023-10-25 19:11:18,851 basehttp 13952 16920"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-26 19:30:13,703 log 13952 20336Not Found: /favicon.ico
+WARNING 2023-10-26 19:30:17,430 basehttp 13952 20336"GET /favicon.ico HTTP/1.1" 404 2227
+WARNING 2023-10-27 19:41:06,727 log 13952 11376Not Found: /favicon.ico
+WARNING 2023-10-27 19:41:06,735 basehttp 13952 11376"GET /favicon.ico HTTP/1.1" 404 2227
+INFO 2024-04-16 10:03:09,803 autoreload 2076 9292Watching for file changes with StatReloader
+INFO 2024-04-16 10:03:36,784 basehttp 2076 4968"GET /seminar2/heads_tails HTTP/1.1" 301 0
+ERROR 2024-04-16 10:03:36,860 log 2076 4088Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 39, in heads_tails
+    res_w = HeadsTails(rest_time=timezone.now, res = res)
+            ^^^^^^^^^^
+NameError: name 'HeadsTails' is not defined
+ERROR 2024-04-16 10:03:36,874 basehttp 2076 4088"GET /seminar2/heads_tails/ HTTP/1.1" 500 65258
+WARNING 2024-04-16 10:03:36,992 log 2076 4088Not Found: /favicon.ico
+WARNING 2024-04-16 10:03:36,996 basehttp 2076 4088"GET /favicon.ico HTTP/1.1" 404 2227
+INFO 2024-04-16 10:07:42,263 autoreload 2076 9292C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:07:42,738 autoreload 496 9508Watching for file changes with StatReloader
+INFO 2024-04-16 10:07:44,879 autoreload 7956 5296Watching for file changes with StatReloader
+ERROR 2024-04-16 10:07:48,988 log 7956 7724Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 39, in heads_tails
+    res_w = HeadsTails(rest_time=timezone.now, res = res)
+            ^^^^^^^^^^
+NameError: name 'HeadsTails' is not defined
+ERROR 2024-04-16 10:07:48,990 basehttp 7956 7724"GET /seminar2/heads_tails/ HTTP/1.1" 500 65395
+INFO 2024-04-16 10:09:04,287 autoreload 7956 5296C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:09:06,253 autoreload 8972 7980Watching for file changes with StatReloader
+INFO 2024-04-16 10:09:30,103 autoreload 8972 7980C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:09:31,863 autoreload 12388 12768Watching for file changes with StatReloader
+INFO 2024-04-16 10:11:45,532 autoreload 8492 1596Watching for file changes with StatReloader
+INFO 2024-04-16 10:13:35,319 autoreload 8492 1596C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 10:13:35,780 autoreload 15544 15668Watching for file changes with StatReloader
+INFO 2024-04-16 10:16:54,624 autoreload 15544 15668C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:16:55,040 autoreload 16056 6232Watching for file changes with StatReloader
+INFO 2024-04-16 10:17:04,589 autoreload 16056 6232C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:17:05,059 autoreload 13212 11748Watching for file changes with StatReloader
+INFO 2024-04-16 10:17:06,794 basehttp 13212 12684"GET /seminar2/ HTTP/1.1" 200 31
+WARNING 2024-04-16 10:17:28,040 log 13212 12684Not Found: /seminar2/HeadsTails
+WARNING 2024-04-16 10:17:28,040 basehttp 13212 12684"GET /seminar2/HeadsTails HTTP/1.1" 404 2687
+ERROR 2024-04-16 10:17:46,254 log 13212 12684Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 39, in heads_tails
+    res_w = HeadsTails(rest_time=timezone.now, res = res)
+            ^^^^^^^^^^
+NameError: name 'HeadsTails' is not defined
+ERROR 2024-04-16 10:17:46,256 basehttp 13212 12684"GET /seminar2/heads_tails/ HTTP/1.1" 500 65176
+INFO 2024-04-16 10:18:42,098 autoreload 13212 11748C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:18:42,515 autoreload 10268 15096Watching for file changes with StatReloader
+INFO 2024-04-16 10:18:56,166 autoreload 10372 860Watching for file changes with StatReloader
+INFO 2024-04-16 10:22:19,117 autoreload 10372 860C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:22:19,566 autoreload 11516 15012Watching for file changes with StatReloader
+INFO 2024-04-16 10:22:27,420 autoreload 12148 9928Watching for file changes with StatReloader
+INFO 2024-04-16 10:22:47,160 autoreload 12148 9928C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:22:47,600 autoreload 5732 9784Watching for file changes with StatReloader
+INFO 2024-04-16 10:23:16,555 autoreload 5732 9784C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:23:16,977 autoreload 300 284Watching for file changes with StatReloader
+INFO 2024-04-16 10:23:18,682 autoreload 11440 15644Watching for file changes with StatReloader
+INFO 2024-04-16 10:23:34,326 autoreload 11440 15644C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:23:34,740 autoreload 12732 16332Watching for file changes with StatReloader
+ERROR 2024-04-16 10:23:37,032 log 12732 5892Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 44, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-04-16 10:23:37,037 basehttp 12732 5892"GET /seminar2/heads_tails/ HTTP/1.1" 500 144210
+INFO 2024-04-16 10:24:01,781 basehttp 12732 5892"GET /seminar2/ HTTP/1.1" 200 31
+ERROR 2024-04-16 10:24:52,393 log 12732 5892Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 44, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+                       ^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1745, in as_sql
+    value_rows = [
+                 ^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1746, in <listcomp>
+    [
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1607, in get_db_prep_value
+    value = self.get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1585, in get_prep_value
+    value = super().get_prep_value(value)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\fields\__init__.py", line 1546, in to_python
+    parsed = parse_datetime(value)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\utils\dateparse.py", line 114, in parse_datetime
+    return datetime.datetime.fromisoformat(value)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: fromisoformat: argument must be str
+ERROR 2024-04-16 10:24:52,397 basehttp 12732 5892"GET /seminar2/heads_tails/ HTTP/1.1" 500 144053
+INFO 2024-04-16 10:25:51,797 basehttp 12732 5892"GET /seminar2/statistic HTTP/1.1" 301 0
+ERROR 2024-04-16 10:25:51,824 log 12732 14048Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 52, in statistic
+    data = HeadsTails.statistic(n)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py", line 25, in statistic
+    list_res = query[-n:]
+                     ^^
+TypeError: bad operand type for unary -: 'str'
+ERROR 2024-04-16 10:25:51,826 basehttp 12732 14048"GET /seminar2/statistic/ HTTP/1.1" 500 68347
+WARNING 2024-04-16 10:26:07,298 log 12732 14048Not Found: /seminar2/statistic 5
+WARNING 2024-04-16 10:26:07,299 basehttp 12732 14048"GET /seminar2/statistic%205 HTTP/1.1" 404 2692
+INFO 2024-04-16 10:26:44,962 autoreload 12732 16332C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:26:45,504 autoreload 8344 6532Watching for file changes with StatReloader
+INFO 2024-04-16 10:26:58,764 basehttp 8344 1216"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:01,001 basehttp 8344 1216"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:01,656 basehttp 8344 1216"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:27:02,130 basehttp 8344 1216"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:02,577 basehttp 8344 1216"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:27:09,567 autoreload 8344 6532C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:27:10,003 autoreload 15408 16276Watching for file changes with StatReloader
+INFO 2024-04-16 10:27:15,454 autoreload 15408 16276C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:27:15,913 autoreload 7432 7188Watching for file changes with StatReloader
+INFO 2024-04-16 10:27:17,832 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:19,181 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:27:19,948 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:20,381 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:27:20,850 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:27:21,221 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:27:21,746 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 10:28:50,311 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:28:50,971 basehttp 7432 10400"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 10:30:21,960 autoreload 7432 7188C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 10:30:22,443 autoreload 1036 6428Watching for file changes with StatReloader
+INFO 2024-04-16 10:31:23,151 autoreload 12104 14148Watching for file changes with StatReloader
+INFO 2024-04-16 10:31:45,890 autoreload 12104 14148C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 10:31:46,335 autoreload 15980 9828Watching for file changes with StatReloader
+ERROR 2024-04-16 10:32:02,520 log 15980 14052Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 44, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:32:02,522 basehttp 15980 14052"GET /seminar2/heads_tails/ HTTP/1.1" 500 75118
+INFO 2024-04-16 10:33:04,774 autoreload 15980 9828C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:33:05,200 autoreload 2732 3420Watching for file changes with StatReloader
+ERROR 2024-04-16 10:33:08,112 log 2732 12556Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 42, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:33:08,114 basehttp 2732 12556"GET /seminar2/heads_tails/ HTTP/1.1" 500 75128
+INFO 2024-04-16 10:37:38,445 autoreload 2732 3420C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:37:39,006 autoreload 16320 5152Watching for file changes with StatReloader
+ERROR 2024-04-16 10:47:44,601 log 16320 15060Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:47:44,603 basehttp 16320 15060"GET /seminar2/heads_tails/ HTTP/1.1" 500 75083
+INFO 2024-04-16 10:49:44,286 autoreload 16320 5152C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:49:44,758 autoreload 5040 15900Watching for file changes with StatReloader
+ERROR 2024-04-16 10:49:49,962 log 5040 10164Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    HeadsTails.save(res_w)
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:49:49,964 basehttp 5040 10164"GET /seminar2/heads_tails/ HTTP/1.1" 500 75082
+ERROR 2024-04-16 10:49:57,417 log 5040 10164Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    HeadsTails.save(res_w)
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:49:57,419 basehttp 5040 10164"GET /seminar2/heads_tails/ HTTP/1.1" 500 75082
+INFO 2024-04-16 10:53:06,226 autoreload 5040 15900C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 10:53:06,652 autoreload 8280 15648Watching for file changes with StatReloader
+ERROR 2024-04-16 10:53:13,044 log 8280 9864Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:53:13,047 basehttp 8280 9864"GET /seminar2/heads_tails/ HTTP/1.1" 500 75083
+INFO 2024-04-16 10:58:50,636 autoreload 8280 15648C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 10:58:51,066 autoreload 15504 10620Watching for file changes with StatReloader
+ERROR 2024-04-16 10:58:57,969 log 15504 9188Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 780, in save
+    using = using or router.db_for_write(self.__class__, instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 231, in _route_db
+    if instance is not None and instance._state.db:
+                                ^^^^^^^^^^^^^^^
+AttributeError: 'HeadsTails' object has no attribute '_state'
+ERROR 2024-04-16 10:58:57,972 basehttp 15504 9188"GET /seminar2/heads_tails/ HTTP/1.1" 500 75073
+ERROR 2024-04-16 10:59:35,996 log 15504 9188Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 49, in statistic
+    data = HeadsTails.statistic(n)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py", line 29, in statistic
+    query = list(HeadsTails.objects.all())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 122, in __iter__
+    obj = model_cls.from_db(
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 582, in from_db
+    new = cls(*values)
+          ^^^^^^^^^^^^
+TypeError: HeadsTails.__init__() takes 3 positional arguments but 4 were given
+ERROR 2024-04-16 10:59:35,999 basehttp 15504 9188"GET /seminar2/statistic/ HTTP/1.1" 500 88073
+INFO 2024-04-16 11:00:44,349 autoreload 15504 10620C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:00:44,806 autoreload 15776 15532Watching for file changes with StatReloader
+ERROR 2024-04-16 11:00:45,452 log 15776 10772Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 49, in statistic
+    data = HeadsTails.statistic(int(n))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py", line 28, in statistic
+    query = list(HeadsTails.objects.all())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 122, in __iter__
+    obj = model_cls.from_db(
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 582, in from_db
+    new = cls(*values)
+          ^^^^^^^^^^^^
+TypeError: HeadsTails.__init__() takes 3 positional arguments but 4 were given
+ERROR 2024-04-16 11:00:45,456 basehttp 15776 10772"GET /seminar2/statistic/ HTTP/1.1" 500 88077
+ERROR 2024-04-16 11:00:47,429 log 15776 10772Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 49, in statistic
+    data = HeadsTails.statistic(int(n))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py", line 28, in statistic
+    query = list(HeadsTails.objects.all())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 122, in __iter__
+    obj = model_cls.from_db(
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 582, in from_db
+    new = cls(*values)
+          ^^^^^^^^^^^^
+TypeError: HeadsTails.__init__() takes 3 positional arguments but 4 were given
+ERROR 2024-04-16 11:00:47,430 basehttp 15776 10772"GET /seminar2/statistic/ HTTP/1.1" 500 88077
+WARNING 2024-04-16 11:00:55,805 log 15776 10772Not Found: /seminar2/statistic/2
+WARNING 2024-04-16 11:00:55,806 basehttp 15776 10772"GET /seminar2/statistic/2 HTTP/1.1" 404 2690
+WARNING 2024-04-16 11:01:04,678 log 15776 10772Not Found: /seminar2/statistic.2
+WARNING 2024-04-16 11:01:04,678 basehttp 15776 10772"GET /seminar2/statistic.2 HTTP/1.1" 404 2690
+WARNING 2024-04-16 11:01:11,054 log 15776 10772Not Found: /seminar2/statistic 2
+WARNING 2024-04-16 11:01:11,055 basehttp 15776 10772"GET /seminar2/statistic%202 HTTP/1.1" 404 2692
+ERROR 2024-04-16 11:01:22,545 log 15776 10772Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 49, in statistic
+    data = HeadsTails.statistic(int(n))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py", line 28, in statistic
+    query = list(HeadsTails.objects.all())
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 398, in __iter__
+    self._fetch_all()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1881, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 122, in __iter__
+    obj = model_cls.from_db(
+          ^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 582, in from_db
+    new = cls(*values)
+          ^^^^^^^^^^^^
+TypeError: HeadsTails.__init__() takes 3 positional arguments but 4 were given
+ERROR 2024-04-16 11:01:22,547 basehttp 15776 10772"GET /seminar2/statistic/ HTTP/1.1" 500 87940
+INFO 2024-04-16 11:03:50,766 autoreload 15776 15532C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:03:51,201 autoreload 12852 10608Watching for file changes with StatReloader
+INFO 2024-04-16 11:03:56,968 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:00,395 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:01,092 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:01,532 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:01,795 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:02,010 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:02,172 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:02,339 basehttp 12852 2228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:04:18,383 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:18,826 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:04:20,484 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:20,806 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:21,085 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:04:21,310 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:04:21,503 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:21,703 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:21,902 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:04:22,062 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+ERROR 2024-04-16 11:05:22,853 log 12852 2228Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 41, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-16 11:05:22,857 basehttp 12852 2228"GET /seminar2/heads_tails/ HTTP/1.1" 500 124159
+INFO 2024-04-16 11:05:25,935 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:05:28,154 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:05:35,137 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:05:38,473 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:05:40,237 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:05:42,591 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:05:44,085 basehttp 12852 13356"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:08:24,566 autoreload 12852 10608C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:08:25,051 autoreload 1544 11304Watching for file changes with StatReloader
+INFO 2024-04-16 11:08:55,448 basehttp 1544 15296"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:08:55,885 basehttp 1544 15296"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:08:58,335 basehttp 1544 15296"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:09:03,677 basehttp 1544 15296"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:09:30,134 autoreload 1544 11304C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:09:30,612 autoreload 12832 2772Watching for file changes with StatReloader
+INFO 2024-04-16 11:09:30,758 basehttp 12832 10652"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:09:33,188 basehttp 12832 10652"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:09:36,453 basehttp 12832 10652"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:10:04,620 basehttp 12832 10652"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:10:04,782 autoreload 12832 2772C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:10:05,232 autoreload 14984 11236Watching for file changes with StatReloader
+INFO 2024-04-16 11:10:07,816 basehttp 14984 11412"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:14,361 autoreload 14984 11236C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:13:14,839 autoreload 16052 1976Watching for file changes with StatReloader
+INFO 2024-04-16 11:13:15,707 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:17,877 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:19,701 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:20,452 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:23,165 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:24,014 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:38,029 basehttp 16052 1684"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:13:41,599 basehttp 16052 1684"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:13:45,281 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:13:55,406 basehttp 16052 1684"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:14:08,500 autoreload 16052 1976C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:14:08,930 autoreload 14612 10884Watching for file changes with StatReloader
+INFO 2024-04-16 11:14:11,937 autoreload 11132 15848Watching for file changes with StatReloader
+INFO 2024-04-16 11:14:13,791 basehttp 11132 13228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:14:15,772 basehttp 11132 13228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:14:16,645 basehttp 11132 13228"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:14:57,347 basehttp 11132 13228"GET /seminar2/ HTTP/1.1" 200 31
+INFO 2024-04-16 11:15:51,825 autoreload 11132 15848C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:15:52,268 autoreload 13388 15564Watching for file changes with StatReloader
+INFO 2024-04-16 11:16:31,557 autoreload 13388 15564C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:16:32,005 autoreload 616 11252Watching for file changes with StatReloader
+INFO 2024-04-16 11:17:20,497 autoreload 616 11252C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:17:20,930 autoreload 13480 12168Watching for file changes with StatReloader
+INFO 2024-04-16 11:17:23,241 basehttp 13480 1792"GET /seminar2/ HTTP/1.1" 200 31
+INFO 2024-04-16 11:18:13,707 autoreload 13480 12168C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:18:14,141 autoreload 15460 14168Watching for file changes with StatReloader
+INFO 2024-04-16 11:18:25,746 autoreload 15460 14168C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:18:26,205 autoreload 15564 6244Watching for file changes with StatReloader
+INFO 2024-04-16 11:18:26,519 basehttp 15564 13460"GET /seminar2/ HTTP/1.1" 200 266
+INFO 2024-04-16 11:18:55,232 autoreload 15564 6244C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:18:55,677 autoreload 1760 3696Watching for file changes with StatReloader
+INFO 2024-04-16 11:18:55,892 basehttp 1760 2548"GET /seminar2/ HTTP/1.1" 200 270
+ERROR 2024-04-16 11:19:03,775 log 1760 2548Internal Server Error: /seminar2/heads_tails/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 49, in heads_tails
+    res_w.save()
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 814, in save
+    self.save_base(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 877, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1020, in _save_table
+    results = self._do_insert(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\base.py", line 1061, in _do_insert
+    return manager._insert(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\models\sql\compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\backends\base\operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 97, in inner
+    with self:
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\db\utils.py", line 98, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-16 11:19:03,780 basehttp 1760 2548"GET /seminar2/heads_tails/ HTTP/1.1" 500 124921
+INFO 2024-04-16 11:19:16,896 basehttp 1760 2548"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:19:18,519 basehttp 1760 2548"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:19:18,863 basehttp 1760 2548"GET /seminar2/heads_tails/ HTTP/1.1" 200 10
+INFO 2024-04-16 11:19:19,103 basehttp 1760 2548"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+WARNING 2024-04-16 11:19:20,880 log 1760 2548Not Found: /seminar2/statisctics
+WARNING 2024-04-16 11:19:20,880 basehttp 1760 2548"GET /seminar2/statisctics HTTP/1.1" 404 2690
+INFO 2024-04-16 11:19:34,125 autoreload 1760 3696C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:19:34,603 autoreload 10140 6556Watching for file changes with StatReloader
+WARNING 2024-04-16 11:19:35,898 log 10140 9588Not Found: /seminar2/statisctics
+WARNING 2024-04-16 11:19:35,899 basehttp 10140 9588"GET /seminar2/statisctics HTTP/1.1" 404 2690
+INFO 2024-04-16 11:20:14,038 autoreload 10140 6556C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:20:14,483 autoreload 12156 13636Watching for file changes with StatReloader
+WARNING 2024-04-16 11:20:14,712 log 12156 5400Not Found: /seminar2/statisctics
+WARNING 2024-04-16 11:20:14,712 basehttp 12156 5400"GET /seminar2/statisctics HTTP/1.1" 404 2690
+WARNING 2024-04-16 11:20:16,999 log 12156 5400Not Found: /seminar2/statisctics
+WARNING 2024-04-16 11:20:16,999 basehttp 12156 5400"GET /seminar2/statisctics HTTP/1.1" 404 2690
+WARNING 2024-04-16 11:20:20,865 log 12156 5400Not Found: /seminar2/statisctics
+WARNING 2024-04-16 11:20:20,866 basehttp 12156 5400"GET /seminar2/statisctics HTTP/1.1" 404 2690
+INFO 2024-04-16 11:20:30,037 autoreload 3232 13600Watching for file changes with StatReloader
+INFO 2024-04-16 11:20:32,791 basehttp 3232 12980"GET /seminar2/ HTTP/1.1" 200 268
+INFO 2024-04-16 11:20:33,899 basehttp 3232 12980"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:20:35,411 basehttp 3232 12980"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:20:53,872 basehttp 3232 12980"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:20:56,910 basehttp 3232 12980"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:21:54,550 autoreload 3232 13600C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:21:54,995 autoreload 9828 13904Watching for file changes with StatReloader
+INFO 2024-04-16 11:21:57,458 basehttp 9828 13356"GET /seminar2/statistic/ HTTP/1.1" 200 18
+INFO 2024-04-16 11:22:50,830 autoreload 9828 13904C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:22:51,265 autoreload 12712 10776Watching for file changes with StatReloader
+INFO 2024-04-16 11:22:51,422 basehttp 12712 3260"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:22:52,094 basehttp 12712 3260"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:23:03,526 basehttp 12712 3260"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:23:03,907 autoreload 12712 10776C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:23:04,338 autoreload 15480 8692Watching for file changes with StatReloader
+INFO 2024-04-16 11:23:05,840 basehttp 15480 8976"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:24:19,640 autoreload 15480 8692C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:24:20,073 autoreload 3272 2112Watching for file changes with StatReloader
+ERROR 2024-04-16 11:24:20,227 log 3272 15652Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 58, in statistic
+    text = print(f"{data[0]}, {data[1]}")
+                    ~~~~^^^
+KeyError: 0
+ERROR 2024-04-16 11:24:20,229 basehttp 3272 15652"GET /seminar2/statistic/ HTTP/1.1" 500 64860
+INFO 2024-04-16 11:24:59,408 autoreload 3272 2112C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:24:59,856 autoreload 3684 2176Watching for file changes with StatReloader
+INFO 2024-04-16 11:25:00,108 basehttp 3684 2916"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:25:02,471 basehttp 3684 2916"GET /seminar2/statistic/ HTTP/1.1" 200 4
+INFO 2024-04-16 11:26:33,440 autoreload 3684 2176C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:26:33,883 autoreload 1392 15648Watching for file changes with StatReloader
+INFO 2024-04-16 11:26:34,979 basehttp 1392 11024"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:26:36,695 basehttp 1392 11024"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:26:38,094 basehttp 1392 11024"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:26:44,488 autoreload 1392 15648C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:26:45,027 autoreload 2352 15276Watching for file changes with StatReloader
+ERROR 2024-04-16 11:26:45,350 log 2352 11008Internal Server Error: /seminar2/statistic/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 60, in statistic
+    return HttpResponse(*str(data))
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\http\response.py", line 374, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: HttpResponseBase.__init__() takes from 1 to 6 positional arguments but 23 were given
+ERROR 2024-04-16 11:26:45,352 basehttp 2352 11008"GET /seminar2/statistic/ HTTP/1.1" 500 69655
+INFO 2024-04-16 11:26:49,493 autoreload 2352 15276C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:26:49,976 autoreload 10852 7140Watching for file changes with StatReloader
+INFO 2024-04-16 11:26:50,433 basehttp 10852 3192"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:26:51,267 basehttp 10852 3192"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:26:56,802 basehttp 10852 3192"GET /seminar2/heads_tails/ HTTP/1.1" 200 8
+INFO 2024-04-16 11:27:00,021 basehttp 10852 3192"GET /seminar2/statistic/ HTTP/1.1" 200 32
+INFO 2024-04-16 11:27:01,981 basehttp 10852 3192"GET /seminar2/statistic/ HTTP/1.1" 200 32
+WARNING 2024-04-16 11:27:18,557 log 10852 3192Not Found: /seminar2/statistic/5
+WARNING 2024-04-16 11:27:18,558 basehttp 10852 3192"GET /seminar2/statistic/5 HTTP/1.1" 404 2690
+INFO 2024-04-16 11:27:28,229 autoreload 10852 7140C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:27:28,681 autoreload 16108 15928Watching for file changes with StatReloader
+INFO 2024-04-16 11:27:39,274 autoreload 16108 15928C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:27:39,787 autoreload 8880 8516Watching for file changes with StatReloader
+INFO 2024-04-16 11:28:53,898 basehttp 8880 14556"GET /seminar2/statistic/?n=10 HTTP/1.1" 200 32
+INFO 2024-04-16 11:30:19,172 autoreload 8880 8516C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:30:19,608 autoreload 14560 9188Watching for file changes with StatReloader
+INFO 2024-04-16 11:30:21,105 basehttp 14560 7140"GET /seminar2/statistic/?n=10 HTTP/1.1" 200 32
+INFO 2024-04-16 11:30:21,988 basehttp 14560 7140"GET /seminar2/statistic/?n=10 HTTP/1.1" 200 32
+INFO 2024-04-16 11:30:22,428 basehttp 14560 7140"GET /seminar2/statistic/?n=10 HTTP/1.1" 200 32
+INFO 2024-04-16 11:35:27,616 autoreload 14560 9188C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:35:28,086 autoreload 6480 5604Watching for file changes with StatReloader
+INFO 2024-04-16 11:35:53,861 autoreload 6480 5604C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:35:54,330 autoreload 15332 15268Watching for file changes with StatReloader
+INFO 2024-04-16 11:36:48,687 autoreload 15332 15268C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:36:49,104 autoreload 10724 10696Watching for file changes with StatReloader
+INFO 2024-04-16 11:37:53,662 autoreload 10724 10696C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:37:54,249 autoreload 6800 10636Watching for file changes with StatReloader
+INFO 2024-04-16 11:38:12,065 autoreload 6800 10636C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:38:12,475 autoreload 1364 12324Watching for file changes with StatReloader
+INFO 2024-04-16 11:38:36,221 autoreload 1364 12324C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:38:36,757 autoreload 15056 12152Watching for file changes with StatReloader
+INFO 2024-04-16 11:38:50,268 autoreload 15056 12152C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:38:50,736 autoreload 15388 10772Watching for file changes with StatReloader
+INFO 2024-04-16 11:39:44,351 autoreload 15388 10772C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:39:44,819 autoreload 12436 16300Watching for file changes with StatReloader
+INFO 2024-04-16 11:40:20,010 autoreload 12436 16300C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:40:20,456 autoreload 3000 5736Watching for file changes with StatReloader
+INFO 2024-04-16 11:40:54,644 autoreload 3000 5736C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 11:40:55,140 autoreload 708 13636Watching for file changes with StatReloader
+INFO 2024-04-16 11:41:44,680 autoreload 708 13636C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:41:45,156 autoreload 8856 15696Watching for file changes with StatReloader
+INFO 2024-04-16 11:41:59,800 autoreload 8856 15696C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:42:00,245 autoreload 16048 13624Watching for file changes with StatReloader
+INFO 2024-04-16 11:42:04,668 autoreload 16048 13624C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:42:05,118 autoreload 15672 5444Watching for file changes with StatReloader
+INFO 2024-04-16 11:43:00,812 autoreload 15672 5444C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 11:43:01,276 autoreload 14912 13356Watching for file changes with StatReloader
+INFO 2024-04-16 11:43:34,420 autoreload 14912 13356C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\urls.py changed, reloading.
+INFO 2024-04-16 11:43:34,926 autoreload 15000 3696Watching for file changes with StatReloader
+INFO 2024-04-16 11:43:54,692 autoreload 15000 3696C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\urls.py changed, reloading.
+INFO 2024-04-16 11:43:55,131 autoreload 12404 3740Watching for file changes with StatReloader
+INFO 2024-04-16 17:41:45,361 autoreload 13640 10188Watching for file changes with StatReloader
+INFO 2024-04-16 20:15:06,814 autoreload 2300 12396Watching for file changes with StatReloader
+ERROR 2024-04-16 20:15:52,154 log 2300 6652Internal Server Error: /seminar2/articles_by_author/
+Traceback (most recent call last):
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py", line 75, in articles_by_author
+    author_id = Author.objects.filter(f_name=name).first()
+                ^^^^^^
+NameError: name 'Author' is not defined
+ERROR 2024-04-16 20:15:52,156 basehttp 2300 6652"GET /seminar2/articles_by_author/?name=FirstName10 HTTP/1.1" 500 65308
+INFO 2024-04-16 20:17:25,757 autoreload 2300 12396C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 20:17:26,215 autoreload 17256 9332Watching for file changes with StatReloader
+INFO 2024-04-16 20:17:31,955 basehttp 17256 6220"GET /seminar2/articles_by_author/?name=FirstName10 HTTP/1.1" 200 0
+INFO 2024-04-16 20:17:46,224 basehttp 17256 6220"GET /seminar2/articles_by_author/?name=FirstName10 HTTP/1.1" 200 0
+INFO 2024-04-16 20:17:49,523 basehttp 17256 6220"GET /seminar2/articles_by_author/?name=FirstName9 HTTP/1.1" 200 0
+INFO 2024-04-16 20:18:10,785 autoreload 17256 9332C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\views.py changed, reloading.
+INFO 2024-04-16 20:18:11,249 autoreload 15120 9376Watching for file changes with StatReloader
+INFO 2024-04-16 20:18:13,988 basehttp 15120 16432"GET /seminar2/articles_by_author/?name=FirstName9 HTTP/1.1" 200 0
+INFO 2024-04-16 20:19:20,155 basehttp 15120 16432"GET /seminar2/articles_by_author/?name=FirstName_9 HTTP/1.1" 200 71
+INFO 2024-04-16 20:20:22,974 autoreload 15120 9376C:\Work\!GB\16 Django\01_Lection\seminar\proj_seminar_2\app_1\models.py changed, reloading.
+INFO 2024-04-16 20:20:23,423 autoreload 15048 7976Watching for file changes with StatReloader
+INFO 2024-04-16 20:20:32,083 basehttp 15048 16152"GET /seminar2/articles_by_author/?name=FirstName_9 HTTP/1.1" 200 81
+INFO 2024-04-16 21:31:20,144 autoreload 7480 6412Watching for file changes with StatReloader
